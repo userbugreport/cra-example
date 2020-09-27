@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { BugButton } from "@userbugreport/bugbutton-react";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
         >
           Learn React
         </a>
+        <BugButton
+          id="ebb492f2-44cc-44ea-ba92-890ada86d260"
+          apikey="31b81542-f981-452d-97e8-3207a9e15efb"
+        />
       </header>
     </div>
   );
